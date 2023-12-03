@@ -1,0 +1,8 @@
+﻿  Apple.cpp
+D:\Snake_Game\Apple.cpp(22,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Snake_Game\Apple.cpp(22,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Snake_Game\Apple.cpp(23,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Snake_Game\Apple.cpp(23,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\Snake_Game\Apple.cpp(27,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+D:\Snake_Game\Apple.cpp(28,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  SnakeGame.vcxproj -> D:\Snake_Game\x64\Debug\SnakeGame.exe

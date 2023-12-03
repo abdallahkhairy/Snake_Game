@@ -1,0 +1,2 @@
+D:\SnakeGame\x64\Debug\SnakeGame.exe
+D:\Snake_Game\x64\Debug\SnakeGame.exe
