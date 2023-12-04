@@ -144,6 +144,24 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\apple.png" />
+    <Image Include="images\apple2.png" />
+    <Image Include="images\dhead.png" />
+    <Image Include="images\dtail.png" />
+    <Image Include="images\h.png" />
+    <Image Include="images\hbody.png" />
+    <Image Include="images\lhead.png" />
+    <Image Include="images\logo.png" />
+    <Image Include="images\ltail.png" />
+    <Image Include="images\rhead.png" />
+    <Image Include="images\rtail.png" />
+    <Image Include="images\snake-graphics (1).png" />
+    <Image Include="images\tl.png" />
+    <Image Include="images\tld.png" />
+    <Image Include="images\tr.png" />
+    <Image Include="images\trd.png" />
+    <Image Include="images\uhead.png" />
+    <Image Include="images\utail.png" />
+    <Image Include="images\vbody.png" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

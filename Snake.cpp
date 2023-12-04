@@ -61,7 +61,7 @@ void Snake::draw() {
         float y = body[i].y;
         Rectangle block;
         if (0 == i){
-            DrawCircle((x * cell_size) + cell_size/2, (y * cell_size) + cell_size / 2, cell_size/4, snake_head_color);
+            DrawCircle((x * cell_size) + cell_size / 2, (y * cell_size) + cell_size / 2, cell_size/3, snake_head_color);
             if ((body[1].x - body[0].x) == 0 && (body[1].y - body[0].y) == 1) { // moves up
                 DrawTexture(texture[0], x * cell_size, y * cell_size, WHITE);
             }

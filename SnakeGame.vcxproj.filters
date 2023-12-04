@@ -43,5 +43,59 @@
     <Image Include="images\apple.png">
       <Filter>Resource Files</Filter>
     </Image>
+    <Image Include="images\apple2.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\dhead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\dtail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\h.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\hbody.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\lhead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\logo.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\ltail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rhead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\rtail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\snake-graphics (1).png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tl.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tld.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\tr.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\trd.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\uhead.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\utail.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="images\vbody.png">
+      <Filter>Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
