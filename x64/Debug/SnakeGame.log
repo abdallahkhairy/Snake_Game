@@ -1,8 +1,37 @@
-﻿  Apple.cpp
-D:\Snake_Game\Apple.cpp(22,73): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Snake_Game\Apple.cpp(22,36): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Snake_Game\Apple.cpp(23,48): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Snake_Game\Apple.cpp(23,29): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
-D:\Snake_Game\Apple.cpp(27,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-D:\Snake_Game\Apple.cpp(28,10): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-  SnakeGame.vcxproj -> D:\Snake_Game\x64\Debug\SnakeGame.exe
+﻿  Snake.cpp
+D:\SnakeGame\Snake.cpp(64,97): warning C4244: 'argument': conversion from 'unsigned int' to 'float', possible loss of data
+D:\SnakeGame\Snake.cpp(64,71): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(64,40): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(66,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(66,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(69,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(69,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(72,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(72,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(75,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(75,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(84,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(84,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(87,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(87,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(90,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(90,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(93,59): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(93,44): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(98,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(99,40): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(100,39): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(101,39): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(107,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(107,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(110,58): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(110,43): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(114,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(114,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(117,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(117,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(120,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(120,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(123,62): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+D:\SnakeGame\Snake.cpp(123,47): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  SnakeGame.vcxproj -> D:\SnakeGame\x64\Debug\SnakeGame.exe
