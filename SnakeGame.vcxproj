@@ -138,9 +138,9 @@
     <ClCompile Include="Snake.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Apple.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Snake.h" />
+    <ClInclude Include="Apple.hpp" />
+    <ClInclude Include="Game.hpp" />
+    <ClInclude Include="Snake.hpp" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="images\apple.png" />
