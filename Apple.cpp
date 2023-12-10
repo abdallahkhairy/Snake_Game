@@ -4,9 +4,16 @@ using namespace std;
 
 Apple::Apple(deque<Vector2> snake_body)
 {
-	Image img = LoadImage("images/apple.png");
-	texture = LoadTextureFromImage(img);
-	UnloadImage(img);
+	//Image img = LoadImage("images/apple.png");
+	//texture = LoadTextureFromImage(img);
+	//UnloadImage(img);
+	Image apple = {0};
+	apple.format = APPLE_FORMAT;
+	apple.height = APPLE_HEIGHT;
+	apple.width = APPLE_WIDTH;
+	apple.data = APPLE_DATA;
+	apple.mipmaps = 1;
+	texture = LoadTextureFromImage(apple);
 	pos = randPosNotOnSnake(snake_body);
 }
 

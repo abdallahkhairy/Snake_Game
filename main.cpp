@@ -1,6 +1,7 @@
 #include <iostream>
 #include <raylib.h>
 #include "Game.hpp"
+#include "images_hex/icon.hpp"
 
 
 
@@ -15,17 +16,24 @@ double last_time = 0;
 bool move_flag = false;
 
 bool eventTriggered(double interval);
+void ToggleFullScreenWindow(int windowWidth, int windowHeight);
 Color bg_color = Color{ 87, 114, 69, 255 };
 Color text_color = Color{ 0, 0, 0, 100 };
 
 int main() {
     InitWindow(cell_size* no_cells, cell_size * no_cells, "Snake Game By Abdullah Khairy");
-    SetTargetFPS(60);
+    //SetTargetFPS(120);
     Game game;
-    Image img = LoadImage("images/logo.png");
-    SetWindowIcon(img);
-    //Texture2D texture = LoadTextureFromImage(img);
-    UnloadImage(img);
+    //Image img = LoadImage("images/logo.png");
+    //SetWindowIcon(img);
+    //UnloadImage(img);
+    Image icon = { 0 };
+    icon.format = ICON_FORMAT;
+    icon.height = ICON_HEIGHT;
+    icon.width = ICON_WIDTH;
+    icon.data = ICON_DATA;
+    icon.mipmaps = 1;
+    SetWindowIcon(icon);
     while (WindowShouldClose() == false) {
         BeginDrawing();
         ClearBackground(bg_color);
@@ -35,6 +43,12 @@ int main() {
             game.update();
         }
         else { /* Nothing */ }
+
+        if (IsKeyPressed(KEY_SPACE)) {
+           // ToggleBorderlessWindowed();
+           // ToggleFullscreen();
+            ToggleFullScreenWindow(cell_size * no_cells, cell_size * no_cells);
+        }
         
         if (IsKeyPressed(KEY_UP) && game.snake.direction.y != 1 && move_flag){
             game.snake.direction = { 0, -1 };
@@ -80,4 +94,16 @@ bool eventTriggered(double interval)
         return true;
     }
     return false;
+}
+
+void ToggleFullScreenWindow(int windowWidth, int windowHeight) {
+    if (!IsWindowFullscreen()) {
+        int monitor = GetCurrentMonitor();
+        SetWindowSize(GetMonitorWidth(monitor), GetMonitorHeight(monitor));
+        ToggleFullscreen();
+    }
+    else {
+        ToggleFullscreen();
+        SetWindowSize(windowWidth, windowHeight);
+    }
 }

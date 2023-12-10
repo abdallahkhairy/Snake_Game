@@ -2,9 +2,21 @@
 #include <raylib.h>
 #include <raymath.h>
 #include <deque>
-
-using namespace std;
-
+#include "images_hex/imguh.hpp"
+#include "images_hex/imgdh.hpp" 
+#include "images_hex/imgrh.hpp" 
+#include "images_hex/imglh.hpp" 
+#include "images_hex/imgvbody.hpp"
+#include "images_hex/imghbody.hpp"
+#include "images_hex/imgtl.hpp"
+#include "images_hex/imgtr.hpp"
+#include "images_hex/imgtld.hpp"
+#include "images_hex/imgtrd.hpp"
+#include "images_hex/imgdt.hpp"
+#include "images_hex/imgut.hpp"
+#include "images_hex/imgrt.hpp"
+#include "images_hex/imglt.hpp"
+using namespace std; 
 class Snake
 {
 public:

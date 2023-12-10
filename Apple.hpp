@@ -2,6 +2,7 @@
 #include <raylib.h>
 #include <raymath.h>
 #include <deque>
+#include "images_hex/apple.hpp"
 
 using namespace std;
 
